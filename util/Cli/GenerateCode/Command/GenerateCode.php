@@ -290,9 +290,9 @@ class GenerateCode extends Console\Command\Command
         $generateComplexTypes->run();
 
         /*
-         * Open Ship Service (v11)
+         * Open Ship Service (v13)
          */
-        $wsdlPath = $fedexSrcDir . '/_wsdl/OpenShipService_v11.wsdl';
+        $wsdlPath = $fedexSrcDir . '/_wsdl/OpenShipService_v13.wsdl';
 
         $baseNamespace = 'FedEx\OpenShipService';
         $subPackageName = 'OpenShip Service';
